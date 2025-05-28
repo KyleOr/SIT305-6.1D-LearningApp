@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         userName.addTextChangedListener(inputWatcher);
         password.addTextChangedListener(inputWatcher);
 
-        // Login button (store credentials in UserSession and go to next screen)
+        // Login button
         startButton.setOnClickListener(v -> {
             String name = userName.getText().toString().trim();
             String pass = password.getText().toString().trim();
@@ -55,17 +55,16 @@ public class MainActivity extends AppCompatActivity {
             UserSession.username = name;
             UserSession.password = pass;
 
-            // You can log the credentials for debugging, but make sure to remove them before production
-            // Log.d("UserSession", "Username: " + UserSession.username + ", Password: " + UserSession.password);
+
 
             // Navigate to the next screen (QuestionActivity)
             Intent intent = new Intent(MainActivity.this, TaskActivity.class);
-            startActivity(intent);  // Since username is already in UserSession, no need to pass it here
+            startActivity(intent);
         });
 
-        // Go to sign-up screen (to implement next)
+
         signUpLink.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, SignUpActivity.class); // You’ll create this screen
+            Intent intent = new Intent(MainActivity.this, SignUpActivity.class);
             startActivity(intent);
         });
     }

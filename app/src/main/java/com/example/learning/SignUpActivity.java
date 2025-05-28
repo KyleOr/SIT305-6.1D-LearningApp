@@ -30,7 +30,7 @@ public class SignUpActivity extends AppCompatActivity {
         profilePicture = findViewById(R.id.profilePicture);
         createAccountButton = findViewById(R.id.createAccountButton);
 
-        // Later we can handle photo upload
+
         profilePicture.setOnClickListener(v -> {
             Toast.makeText(this, "Profile picture upload coming soon!", Toast.LENGTH_SHORT).show();
         });
@@ -52,7 +52,7 @@ public class SignUpActivity extends AppCompatActivity {
                 return;
             }
 
-            // Save user session data (for now, just username)
+            // Save user session data
             UserSession.username = username.getText().toString();
 
             // Pass basic info to next activity for now

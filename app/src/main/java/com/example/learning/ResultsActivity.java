@@ -42,7 +42,7 @@ public class ResultsActivity extends AppCompatActivity {
             // Go back to TaskActivity
             Intent intent = new Intent(ResultsActivity.this, TaskActivity.class);
             startActivity(intent);
-            finish(); // Optional: close this activity
+            finish();
         });
     }
 }

@@ -73,7 +73,6 @@ public class InterestSelectionActivity extends AppCompatActivity {
                     Toast.makeText(InterestSelectionActivity.this,
                             "Failed to fetch topics. Check your connection.",
                             Toast.LENGTH_LONG).show();
-                    // You might want to add a retry button here
                 });
             }
 
