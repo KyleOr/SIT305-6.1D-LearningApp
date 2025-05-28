@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Learning</string>
+    <string name="Quiz_Title">SIT305 Quiz App</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="start_button">Start</string>
+    <string name="submit_button">Submit</string>
+    <string name="next_button">Next</string>
+
+    <string name="welcome_message">Welcome, %1$s!</string>
+    <string name="welcome_message_generic">Welcome, User!</string>
+
+
+    <!-- Progress bar and quiz tracker -->
+    <string name="quiz_tracker">%1$d / %2$d</string>
+
+    <!-- Question Title and placeholder for question text -->
+    <string name="question_title">Android Question Title</string>
+    <string name="question_placeholder">Question will appear here</string>
+
+    <!-- Answer options -->
+    <string name="answer_a">ANSWER A</string>
+    <string name="answer_b">ANSWER B</string>
+    <string name="answer_c">ANSWER C</string>
+
+    <!-- Congratulations and score message for ScoreActivity -->
+    <string name="congratulations_message">Congratulations, %1$s!</string>
+    <string name="congratulations_message_generic">Congratulations!</string>
+    <string name="score_message">Your Score: %1$d/%2$d</string>
+
+    <!-- Button labels -->
+    <string name="take_new_quiz_button">Take New Quiz</string>
+    <string name="finish_button">Finish</string>
+
+    <!-- Question array -->
+    <string-array name="questions">
+        <item>What is 2 + 2?</item>
+        <item>What is the capital of France?</item>
+    </string-array>
+
+    <!-- Options arrays -->
+    <string-array name="options_1">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="options_2">
+        <item>Berlin</item>
+        <item>Madrid</item>
+        <item>Paris</item>
+        <item>Rome</item>
+    </string-array>
+</resources>
